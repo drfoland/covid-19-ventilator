@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="180mm"
+   height="135mm"
+   viewBox="0 0 180 135"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14"
+   sodipodi:docname="UI-mockup.svg"
+   inkscape:export-filename="/home/ifohancroft/Projects/COVID Ventilator/Mockups/Tidal-Volume-Screen.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2"
+     inkscape:cx="372.91665"
+     inkscape:cy="350.43787"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g164"
+     showgrid="false"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-center="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1023"
+     inkscape:window-x="0"
+     inkscape:window-y="33"
+     inkscape:window-maximized="1"
+     units="mm"
+     inkscape:snap-text-baseline="true"
+     inkscape:snap-page="true"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-global="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
+    <sodipodi:guide
+       position="90.000007,94.999999"
+       orientation="0,1"
+       id="guide42"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="41.269346,117.5"
+       orientation="0,1"
+       id="guide44"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="17.5,109.97097"
+       orientation="1,0"
+       id="guide46"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="162.50001,108.45907"
+       orientation="1,0"
+       id="guide48"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="26.348959,106.25"
+       orientation="0,1"
+       id="guide58"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="90.000007,106.25"
+       orientation="1,0"
+       id="guide60"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="29.405829,72.500004"
+       orientation="0,1"
+       id="guide65"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="30.621904,83.749995"
+       orientation="0,1"
+       id="guide69"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="9.7485253e-07,134.91976"
+       orientation="1,0"
+       id="guide911"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,0,255)" />
+    <sodipodi:guide
+       position="180.00001,120"
+       orientation="1,0"
+       id="guide929"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,0,255)" />
+    <sodipodi:guide
+       position="290.99213,100.625"
+       orientation="0,1"
+       id="guide66"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="290.99213,89.374994"
+       orientation="0,1"
+       id="guide68"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="32.814586,120"
+       orientation="0,1"
+       id="guide79"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,0,255)" />
+    <sodipodi:guide
+       position="-11.801004,55"
+       orientation="0,1"
+       id="guide81"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,0,255)" />
+    <sodipodi:guide
+       position="15,77.357095"
+       orientation="1,0"
+       id="guide63"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="165.00001,76.795829"
+       orientation="1,0"
+       id="guide67"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="31.227087,69.999995"
+       orientation="0,1"
+       id="guide70"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="27.919795,55"
+       orientation="0,1"
+       id="guide72"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,0,255)" />
+    <sodipodi:guide
+       position="37.500002,34.999979"
+       orientation="0,1"
+       id="guide74"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="46.043753,15.00001"
+       orientation="0,1"
+       id="guide80"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="62.977085,-2.2816408e-06"
+       orientation="0,1"
+       id="guide82"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,0,255)" />
+    <sodipodi:guide
+       position="51.600004,135"
+       orientation="0,1"
+       id="guide103"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,0,255)" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer9"
+     inkscape:label="Background"
+     transform="translate(-35,14.999999)"
+     sodipodi:insensitive="true">
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:15.9019165;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       id="rect73"
+       width="180"
+       height="135"
+       x="35"
+       y="-14.999999" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="LCD Display"
+     transform="translate(15,-220.74998)"
+     sodipodi:insensitive="true">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot30"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Another Mans Treasure MIA Raw';-inkscape-font-specification:'Another Mans Treasure MIA Raw';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="scale(0.26458333)"><flowRegion
+         id="flowRegion32"><rect
+           id="rect34"
+           width="1163.6957"
+           height="393.9595"
+           x="341.43155"
+           y="334.50742" /></flowRegion><flowPara
+         id="flowPara36" /></flowRoot>    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5.05684614;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       id="rect38"
+       width="150"
+       height="50"
+       x="0"
+       y="235.74998" />
+    <rect
+       style="opacity:1;fill:#d2ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:17.70281982;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       id="rect40"
+       width="145"
+       height="45"
+       x="2.5000005"
+       y="238.24998"
+       rx="3"
+       ry="3" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="Home Text Line 1"
+     style="display:none"
+     transform="translate(15,-220.74998)"
+     sodipodi:insensitive="true">
+    <text
+       id="text95"
+       y="254.64467"
+       x="3.7097399"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.63888931px;line-height:1.25;font-family:'Another Mans Treasure MIA Raw';-inkscape-font-specification:'Another Mans Treasure MIA Raw';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="font-size:17.63888931px;stroke-width:0.26458332"
+         y="254.64467"
+         x="3.7097399"
+         id="tspan93"
+         sodipodi:role="line">V_t=360mL BPM=28</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer7"
+     inkscape:label="Home Text Line 2"
+     transform="translate(15,-220.74998)"
+     sodipodi:insensitive="true"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.63888931px;line-height:1.25;font-family:'Another Mans Treasure MIA Raw';-inkscape-font-specification:'Another Mans Treasure MIA Raw';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="3.7097399"
+       y="277.14468"
+       id="text102"><tspan
+         sodipodi:role="line"
+         id="tspan100"
+         x="3.7097399"
+         y="277.14468"
+         style="font-size:17.63888931px;stroke-width:0.26458332">I:E=1:3 P=39</tspan></text>
+  </g>
+  <g
+     transform="translate(15,-220.74998)"
+     style="display:none"
+     inkscape:label="I:E Ratio Text Line 1"
+     id="g110"
+     inkscape:groupmode="layer"
+     sodipodi:insensitive="true">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.63888931px;line-height:1.25;font-family:'Another Mans Treasure MIA Raw';-inkscape-font-specification:'Another Mans Treasure MIA Raw';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="3.7097399"
+       y="254.64467"
+       id="text108"><tspan
+         sodipodi:role="line"
+         id="tspan106"
+         x="3.7097399"
+         y="254.64467"
+         style="font-size:17.63888931px;stroke-width:0.26458332">    I:E Ratio</tspan></text>
+  </g>
+  <g
+     style="display:none"
+     transform="translate(15,-220.74998)"
+     inkscape:label="I:E Ratio Text Line 2"
+     id="g116"
+     inkscape:groupmode="layer"
+     sodipodi:insensitive="true">
+    <text
+       id="text114"
+       y="277.14468"
+       x="3.7097399"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.63888931px;line-height:1.25;font-family:'Another Mans Treasure MIA Raw';-inkscape-font-specification:'Another Mans Treasure MIA Raw';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="font-size:17.63888931px;stroke-width:0.26458332"
+         y="277.14468"
+         x="3.7097399"
+         id="tspan112"
+         sodipodi:role="line">      1:3       </tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g128"
+     inkscape:label="I:E Ratio Edit Text Line 2"
+     transform="translate(15,-220.74998)"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.63888931px;line-height:1.25;font-family:'Another Mans Treasure MIA Raw';-inkscape-font-specification:'Another Mans Treasure MIA Raw';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="3.7097399"
+       y="277.14468"
+       id="text126"><tspan
+         sodipodi:role="line"
+         id="tspan124"
+         x="3.7097399"
+         y="277.14468"
+         style="font-size:17.63888931px;stroke-width:0.26458332">&lt;     1:3      &gt;</tspan></text>
+  </g>
+  <g
+     transform="translate(15,-220.74998)"
+     style="display:none"
+     inkscape:label="RR Text Line 1"
+     id="g134"
+     inkscape:groupmode="layer"
+     sodipodi:insensitive="true">
+    <text
+       id="text132"
+       y="254.64467"
+       x="3.7097399"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.63888931px;line-height:1.25;font-family:'Another Mans Treasure MIA Raw';-inkscape-font-specification:'Another Mans Treasure MIA Raw';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="font-size:17.63888931px;stroke-width:0.26458332"
+         y="254.64467"
+         x="3.7097399"
+         id="tspan130"
+         sodipodi:role="line">Respiratory Rate</tspan></text>
+  </g>
+  <g
+     transform="translate(15,-220.74998)"
+     style="display:none"
+     inkscape:label="RR Text Line 2"
+     id="g140"
+     inkscape:groupmode="layer"
+     sodipodi:insensitive="true">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.63888931px;line-height:1.25;font-family:'Another Mans Treasure MIA Raw';-inkscape-font-specification:'Another Mans Treasure MIA Raw';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="3.7097399"
+       y="277.14468"
+       id="text138"><tspan
+         sodipodi:role="line"
+         id="tspan136"
+         x="3.7097399"
+         y="277.14468"
+         style="font-size:17.63888931px;stroke-width:0.26458332">     28 BPM     </tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g146"
+     inkscape:label="RR Edit Text Line 2"
+     style="display:none"
+     transform="translate(15,-220.74998)"
+     sodipodi:insensitive="true">
+    <text
+       id="text144"
+       y="277.14468"
+       x="3.7097399"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.63888931px;line-height:1.25;font-family:'Another Mans Treasure MIA Raw';-inkscape-font-specification:'Another Mans Treasure MIA Raw';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="font-size:17.63888931px;stroke-width:0.26458332"
+         y="277.14468"
+         x="3.7097399"
+         id="tspan142"
+         sodipodi:role="line">&lt;    28 BPM    &gt;</tspan></text>
+  </g>
+  <g
+     transform="translate(15,-220.74998)"
+     style="display:inline"
+     inkscape:label="TD Text Line 1"
+     id="g152"
+     inkscape:groupmode="layer"
+     sodipodi:insensitive="true">
+    <text
+       id="text150"
+       y="254.64467"
+       x="3.7097399"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.63888931px;line-height:1.25;font-family:'Another Mans Treasure MIA Raw';-inkscape-font-specification:'Another Mans Treasure MIA Raw';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="font-size:17.63888931px;stroke-width:0.26458332"
+         y="254.64467"
+         x="3.7097399"
+         id="tspan148"
+         sodipodi:role="line">  Tidal Volume  </tspan></text>
+  </g>
+  <g
+     transform="translate(15,-220.74998)"
+     style="display:none"
+     inkscape:label="TD Text Line 2"
+     id="g158"
+     inkscape:groupmode="layer"
+     sodipodi:insensitive="true">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.63888931px;line-height:1.25;font-family:'Another Mans Treasure MIA Raw';-inkscape-font-specification:'Another Mans Treasure MIA Raw';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="3.7097399"
+       y="277.14468"
+       id="text156"><tspan
+         sodipodi:role="line"
+         id="tspan154"
+         x="3.7097399"
+         y="277.14468"
+         style="font-size:17.63888931px;stroke-width:0.26458332">     360 mL     </tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g164"
+     inkscape:label="TD Edit Text Line 2"
+     style="display:inline"
+     transform="translate(15,-220.74998)"
+     sodipodi:insensitive="true">
+    <text
+       id="text162"
+       y="277.14468"
+       x="3.7097399"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.63888931px;line-height:1.25;font-family:'Another Mans Treasure MIA Raw';-inkscape-font-specification:'Another Mans Treasure MIA Raw';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="font-size:17.63888931px;stroke-width:0.26458332"
+         y="277.14468"
+         x="3.7097399"
+         id="tspan160"
+         sodipodi:role="line">&lt;    360 mL    &gt;</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Mockup Text Line 1"
+     style="display:none"
+     sodipodi:insensitive="true"
+     transform="translate(15,-220.74998)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.63888931px;line-height:1.25;font-family:'Another Mans Treasure MIA Raw';-inkscape-font-specification:'Another Mans Treasure MIA Raw';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="3.7097399"
+       y="254.64467"
+       id="text54"><tspan
+         sodipodi:role="line"
+         id="tspan52"
+         x="3.7097399"
+         y="254.64467"
+         style="font-size:17.63888931px;stroke-width:0.26458332">0123456789ABCDEF</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="Mockup Text Line 2"
+     style="display:none"
+     sodipodi:insensitive="true"
+     transform="translate(15,-220.74998)">
+    <text
+       id="text73"
+       y="277.14468"
+       x="3.7097399"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.63888931px;line-height:1.25;font-family:'Another Mans Treasure MIA Raw';-inkscape-font-specification:'Another Mans Treasure MIA Raw';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="font-size:17.63888931px;stroke-width:0.26458332"
+         y="277.14468"
+         x="3.7097399"
+         id="tspan71"
+         sodipodi:role="line">0123456789ABCDEF</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Buttons"
+     style="display:inline"
+     transform="translate(15,-220.74998)"
+     sodipodi:insensitive="true">
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:11.1734724;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       id="rect931"
+       width="40"
+       height="40"
+       x="2.5000002"
+       y="300.74997"
+       rx="5"
+       ry="5" />
+    <rect
+       ry="4.6875"
+       rx="4.6875"
+       y="302"
+       x="3.7500002"
+       height="37.5"
+       width="37.5"
+       id="rect935"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10.47513008;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:9.77678776;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       id="rect937"
+       width="35"
+       height="35"
+       x="5"
+       y="303.24997"
+       rx="4.375"
+       ry="4.375" />
+    <rect
+       style="display:inline;opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:11.1734724;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       id="rect931-6"
+       width="40"
+       height="40"
+       x="107.50001"
+       y="300.74997"
+       rx="5"
+       ry="5" />
+    <rect
+       ry="4.6875"
+       rx="4.6875"
+       y="302"
+       x="108.75001"
+       height="37.5"
+       width="37.5"
+       id="rect935-1"
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10.47513008;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill" />
+    <rect
+       style="display:inline;opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:9.77678776;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       id="rect937-8"
+       width="35"
+       height="35"
+       x="110.00001"
+       y="303.24997"
+       rx="4.375"
+       ry="4.375" />
+    <circle
+       transform="translate(6.4583331e-7,-42.519631)"
+       style="display:inline;opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:14.35872746;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       id="path913"
+       cx="75"
+       cy="363.26962"
+       r="17.5" />
+    <circle
+       transform="translate(6.4583331e-7,-42.519631)"
+       r="16.25"
+       cy="363.26962"
+       cx="75"
+       id="circle915"
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:13.33310413;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill" />
+    <circle
+       transform="translate(6.4583331e-7,-42.519631)"
+       style="display:inline;opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:12.30748081;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       id="circle917"
+       cx="75"
+       cy="363.26962"
+       r="15" />
+  </g>
+</svg>

@@ -1,0 +1,587 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Regulator_Linear:LD1117S12TR_SOT223 U1
+U 1 1 5E8A2CCB
+P 2400 1200
+F 0 "U1" H 2400 1442 50  0000 C CNN
+F 1 "LD1117V50" H 2400 1351 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 2400 1400 50  0001 C CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf" H 2500 950 50  0001 C CNN
+	1    2400 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR02
+U 1 1 5E8A3FFE
+P 3050 1100
+F 0 "#PWR02" H 3050 950 50  0001 C CNN
+F 1 "+5V" H 3065 1273 50  0000 C CNN
+F 2 "" H 3050 1100 50  0001 C CNN
+F 3 "" H 3050 1100 50  0001 C CNN
+	1    3050 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 1100 3050 1200
+$Comp
+L power:+12V #PWR01
+U 1 1 5E8A597F
+P 1750 1100
+F 0 "#PWR01" H 1750 950 50  0001 C CNN
+F 1 "+12V" H 1765 1273 50  0000 C CNN
+F 2 "" H 1750 1100 50  0001 C CNN
+F 3 "" H 1750 1100 50  0001 C CNN
+	1    1750 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 1100 1750 1200
+$Comp
+L Device:C C1
+U 1 1 5E8A7171
+P 2000 1400
+F 0 "C1" H 1886 1354 50  0000 R CNN
+F 1 "100nF" H 1886 1445 50  0000 R CNN
+F 2 "" H 2038 1250 50  0001 C CNN
+F 3 "~" H 2000 1400 50  0001 C CNN
+	1    2000 1400
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5E8A8F16
+P 2800 1400
+F 0 "C2" H 2685 1354 50  0000 R CNN
+F 1 "10uF" H 2685 1445 50  0000 R CNN
+F 2 "" H 2838 1250 50  0001 C CNN
+F 3 "~" H 2800 1400 50  0001 C CNN
+	1    2800 1400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2700 1200 2800 1200
+Wire Wire Line
+	2800 1250 2800 1200
+Connection ~ 2800 1200
+Wire Wire Line
+	2800 1200 3050 1200
+Wire Wire Line
+	1750 1200 2000 1200
+Wire Wire Line
+	2000 1250 2000 1200
+Connection ~ 2000 1200
+Wire Wire Line
+	2000 1200 2100 1200
+Wire Wire Line
+	2000 1550 2000 1600
+Wire Wire Line
+	2000 1600 2400 1600
+Wire Wire Line
+	2400 1600 2400 1500
+Wire Wire Line
+	2400 1600 2800 1600
+Wire Wire Line
+	2800 1600 2800 1550
+Connection ~ 2400 1600
+Wire Wire Line
+	2800 1600 2800 1700
+$Comp
+L power:GND #PWR05
+U 1 1 5E8ABC46
+P 2800 1700
+F 0 "#PWR05" H 2800 1450 50  0001 C CNN
+F 1 "GND" H 2805 1527 50  0000 C CNN
+F 2 "" H 2800 1700 50  0001 C CNN
+F 3 "" H 2800 1700 50  0001 C CNN
+	1    2800 1700
+	1    0    0    -1  
+$EndComp
+Connection ~ 2800 1600
+$Sheet
+S 4600 2150 950  850 
+U 5E933C03
+F0 "MCU" 50
+F1 "MCU.sch" 50
+F2 "5V" I L 4600 2250 50 
+F3 "ALM" I R 5550 2350 50 
+F4 "CLK" O R 5550 2450 50 
+F5 "DIR" O R 5550 2550 50 
+F6 "RX" I L 4600 2400 50 
+F7 "TX" O L 4600 2500 50 
+F8 "MOTOR_ENC" I L 4600 2650 50 
+F9 "LOAD_CELL" I L 4600 2800 50 
+$EndSheet
+$Comp
+L power:+5V #PWR08
+U 1 1 5E9DCA1E
+P 4400 2200
+F 0 "#PWR08" H 4400 2050 50  0001 C CNN
+F 1 "+5V" H 4415 2373 50  0000 C CNN
+F 2 "" H 4400 2200 50  0001 C CNN
+F 3 "" H 4400 2200 50  0001 C CNN
+	1    4400 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 2200 4400 2250
+Wire Wire Line
+	4400 2250 4600 2250
+$Comp
+L Connector:Screw_Terminal_01x02 J1
+U 1 1 5E9DE893
+P 900 1400
+F 0 "J1" H 818 1075 50  0000 C CNN
+F 1 "12V in" H 818 1166 50  0000 C CNN
+F 2 "" H 900 1400 50  0001 C CNN
+F 3 "~" H 900 1400 50  0001 C CNN
+	1    900  1400
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+12V #PWR03
+U 1 1 5E9E00C5
+P 1250 1250
+F 0 "#PWR03" H 1250 1100 50  0001 C CNN
+F 1 "+12V" H 1265 1423 50  0000 C CNN
+F 2 "" H 1250 1250 50  0001 C CNN
+F 3 "" H 1250 1250 50  0001 C CNN
+	1    1250 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 1300 1250 1300
+Wire Wire Line
+	1250 1300 1250 1250
+$Comp
+L power:GND #PWR04
+U 1 1 5E9E181C
+P 1150 1500
+F 0 "#PWR04" H 1150 1250 50  0001 C CNN
+F 1 "GND" H 1155 1327 50  0000 C CNN
+F 2 "" H 1150 1500 50  0001 C CNN
+F 3 "" H 1150 1500 50  0001 C CNN
+	1    1150 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 1400 1150 1400
+Wire Wire Line
+	1150 1400 1150 1500
+$Sheet
+S 6500 2000 800  700 
+U 5E9EED7B
+F0 "TB67S142NG" 50
+F1 "TB67S142NG.sch" 50
+F2 "5V" I L 6500 2100 50 
+F3 "12V" I L 6500 2200 50 
+F4 "ALM" O L 6500 2350 50 
+F5 "CLK" I L 6500 2450 50 
+F6 "DIR" I L 6500 2550 50 
+F7 "OUTA+" O R 7300 2150 50 
+F8 "OUTA-" O R 7300 2250 50 
+F9 "OUTB+" O R 7300 2400 50 
+F10 "OUTB-" O R 7300 2500 50 
+$EndSheet
+$Comp
+L power:+5V #PWR07
+U 1 1 5EB14615
+P 6250 2050
+F 0 "#PWR07" H 6250 1900 50  0001 C CNN
+F 1 "+5V" H 6265 2223 50  0000 C CNN
+F 2 "" H 6250 2050 50  0001 C CNN
+F 3 "" H 6250 2050 50  0001 C CNN
+	1    6250 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 2050 6250 2100
+Wire Wire Line
+	6250 2100 6500 2100
+Wire Wire Line
+	6500 2350 6350 2350
+Wire Wire Line
+	6500 2450 6250 2450
+Wire Wire Line
+	6500 2550 6150 2550
+$Comp
+L Motor:Stepper_Motor_bipolar M1
+U 1 1 5EB1A4DD
+P 9100 3200
+F 0 "M1" H 9288 3324 50  0000 L CNN
+F 1 "Stepper Motor" H 9288 3233 50  0000 L CNN
+F 2 "" H 9110 3190 50  0001 C CNN
+F 3 "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0" H 9110 3190 50  0001 C CNN
+	1    9100 3200
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 6500 3300 800  700 
+U 5EB31F25
+F0 "TB6560AHQ" 50
+F1 "TB6560AHQ.sch" 50
+F2 "5V" I L 6500 3400 50 
+F3 "12V" I L 6500 3500 50 
+F4 "ALM" O L 6500 3650 50 
+F5 "CLK" I L 6500 3750 50 
+F6 "DIR" I L 6500 3850 50 
+F7 "OUTA+" O R 7300 3450 50 
+F8 "OUTA-" O R 7300 3550 50 
+F9 "OUTB+" O R 7300 3700 50 
+F10 "OUTB-" O R 7300 3800 50 
+$EndSheet
+Wire Wire Line
+	6500 3650 6350 3650
+Wire Wire Line
+	6350 3650 6350 2350
+Connection ~ 6350 2350
+Wire Wire Line
+	6500 3750 6250 3750
+Wire Wire Line
+	6500 3850 6150 3850
+Wire Wire Line
+	5550 2350 6350 2350
+Connection ~ 6250 2450
+Wire Wire Line
+	6250 2450 5550 2450
+Wire Wire Line
+	6150 3850 6150 2550
+Connection ~ 6150 2550
+Wire Wire Line
+	6150 2550 5550 2550
+Text Notes 6450 3150 0    50   ~ 0
+Option 2
+Wire Notes Line
+	6450 3200 6450 4100
+Wire Notes Line
+	6450 4100 7350 4100
+Wire Notes Line
+	7350 4100 7350 3200
+Wire Notes Line
+	7350 3200 6450 3200
+Wire Notes Line
+	7350 2800 7350 1900
+Wire Notes Line
+	7350 1900 6450 1900
+Wire Notes Line
+	6450 1900 6450 2800
+Wire Notes Line
+	6450 2800 7350 2800
+Text Notes 6450 1850 0    50   ~ 0
+Option 1
+Wire Wire Line
+	6250 3750 6250 2450
+$Comp
+L power:+12V #PWR?
+U 1 1 5EDE1283
+P 5300 1200
+F 0 "#PWR?" H 5300 1050 50  0001 C CNN
+F 1 "+12V" H 5315 1373 50  0000 C CNN
+F 2 "" H 5300 1200 50  0001 C CNN
+F 3 "" H 5300 1200 50  0001 C CNN
+	1    5300 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 3400 6500 3400
+Wire Wire Line
+	6000 3350 6000 3400
+$Comp
+L power:+5V #PWR?
+U 1 1 5EDE127B
+P 6000 3350
+F 0 "#PWR?" H 6000 3200 50  0001 C CNN
+F 1 "+5V" H 6015 3523 50  0000 C CNN
+F 2 "" H 6000 3350 50  0001 C CNN
+F 3 "" H 6000 3350 50  0001 C CNN
+	1    6000 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5EE1434C
+P 9950 4000
+F 0 "J?" H 9978 4026 50  0000 L CNN
+F 1 "Stepper Motor Encoder Input" H 9978 3935 50  0000 L CNN
+F 2 "" H 9950 4000 50  0001 C CNN
+F 3 "~" H 9950 4000 50  0001 C CNN
+	1    9950 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 4000 9200 4000
+Text Label 9200 4000 0    50   ~ 0
+MOTOR_ENC
+Wire Wire Line
+	4600 2650 4050 2650
+Text Label 4050 2650 0    50   ~ 0
+MOTOR_ENC
+Wire Wire Line
+	7300 2150 7750 2150
+Text Label 7750 2150 2    50   ~ 0
+OUTA+
+Wire Wire Line
+	7300 2250 7750 2250
+Text Label 7750 2250 2    50   ~ 0
+OUTA-
+Wire Wire Line
+	7300 2400 7750 2400
+Text Label 7750 2400 2    50   ~ 0
+OUTB+
+Wire Wire Line
+	7300 2500 7750 2500
+Text Label 7750 2500 2    50   ~ 0
+OUTB-
+Wire Wire Line
+	7300 3450 7750 3450
+Text Label 7750 3450 2    50   ~ 0
+OUTA+
+Wire Wire Line
+	7300 3550 7750 3550
+Text Label 7750 3550 2    50   ~ 0
+OUTA-
+Wire Wire Line
+	7300 3700 7750 3700
+Text Label 7750 3700 2    50   ~ 0
+OUTB+
+Wire Wire Line
+	7300 3800 7750 3800
+Text Label 7750 3800 2    50   ~ 0
+OUTB-
+Text Label 8550 2600 0    50   ~ 0
+OUTA+
+Wire Wire Line
+	9000 2700 8550 2700
+Text Label 8550 2700 0    50   ~ 0
+OUTA-
+Wire Wire Line
+	9000 2700 9000 2900
+Wire Wire Line
+	8550 2600 9200 2600
+Wire Wire Line
+	8800 3100 8350 3100
+Text Label 8350 3100 0    50   ~ 0
+OUTB+
+Text Label 8350 3300 0    50   ~ 0
+OUTB-
+$Comp
+L Connector:Screw_Terminal_01x04 J?
+U 1 1 5EE83A70
+P 10400 4550
+F 0 "J?" H 10480 4542 50  0000 L CNN
+F 1 "Load Cell Input" H 10480 4451 50  0000 L CNN
+F 2 "" H 10400 4550 50  0001 C CNN
+F 3 "~" H 10400 4550 50  0001 C CNN
+	1    10400 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 4450 10200 4450
+Wire Wire Line
+	10100 4400 10100 4450
+$Comp
+L power:+5V #PWR?
+U 1 1 5EE8786A
+P 10100 4400
+F 0 "#PWR?" H 10100 4250 50  0001 C CNN
+F 1 "+5V" H 10115 4573 50  0000 C CNN
+F 2 "" H 10100 4400 50  0001 C CNN
+F 3 "" H 10100 4400 50  0001 C CNN
+	1    10100 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10200 4550 9000 4550
+Wire Wire Line
+	10200 4650 9000 4650
+$Sheet
+S 7850 4400 1150 600 
+U 5EE91AC2
+F0 "Amplifier" 50
+F1 "Amplifier.sch" 50
+F2 "5V" I L 7850 4500 50 
+F3 "A-" I R 9000 4650 50 
+F4 "A+" I R 9000 4550 50 
+F5 "VM_SENS-" I R 9000 4900 50 
+F6 "VM_SENS+" I R 9000 4800 50 
+F7 "LC_OUTPUT" O L 7850 4700 50 
+F8 "CURR_OUTPUT" O L 7850 4800 50 
+$EndSheet
+$Comp
+L power:GND #PWR?
+U 1 1 5EE969B7
+P 10100 4800
+F 0 "#PWR?" H 10100 4550 50  0001 C CNN
+F 1 "GND" H 10105 4627 50  0000 C CNN
+F 2 "" H 10100 4800 50  0001 C CNN
+F 3 "" H 10100 4800 50  0001 C CNN
+	1    10100 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 4800 10100 4750
+Wire Wire Line
+	10100 4750 10200 4750
+Wire Wire Line
+	7850 4700 7250 4700
+Text Label 7250 4700 0    50   ~ 0
+LOAD_CELL
+Wire Wire Line
+	4600 2800 4050 2800
+Text Label 4050 2800 0    50   ~ 0
+LOAD_CELL
+$Comp
+L power:+5V #PWR?
+U 1 1 5EEC866C
+P 7650 4450
+F 0 "#PWR?" H 7650 4300 50  0001 C CNN
+F 1 "+5V" H 7665 4623 50  0000 C CNN
+F 2 "" H 7650 4450 50  0001 C CNN
+F 3 "" H 7650 4450 50  0001 C CNN
+	1    7650 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 4450 7650 4500
+Wire Wire Line
+	7650 4500 7850 4500
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 5EECD8FD
+P 10000 5600
+F 0 "J?" H 10080 5592 50  0000 L CNN
+F 1 "Piezoresistive Force Sensor" H 10080 5501 50  0000 L CNN
+F 2 "" H 10000 5600 50  0001 C CNN
+F 3 "~" H 10000 5600 50  0001 C CNN
+	1    10000 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 3300 8800 3300
+Wire Wire Line
+	9200 2600 9200 2900
+$Comp
+L Device:R R?
+U 1 1 5EED78F9
+P 5700 1250
+F 0 "R?" V 5493 1250 50  0000 C CNN
+F 1 "10mR" V 5584 1250 50  0000 C CNN
+F 2 "" V 5630 1250 50  0001 C CNN
+F 3 "~" H 5700 1250 50  0001 C CNN
+	1    5700 1250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5300 1200 5300 1250
+Wire Wire Line
+	5300 1250 5500 1250
+Wire Wire Line
+	5850 1250 5900 1250
+Text Label 6250 1250 2    50   ~ 0
+VMOT
+Wire Wire Line
+	6500 2200 6100 2200
+Text Label 6100 2200 0    50   ~ 0
+VMOT
+Wire Wire Line
+	6500 3500 5800 3500
+Text Label 5800 3500 0    50   ~ 0
+VMOT
+Wire Wire Line
+	5500 1250 5500 1400
+Wire Wire Line
+	5500 1250 5550 1250
+Wire Wire Line
+	5900 1250 5900 1400
+Wire Wire Line
+	5900 1400 6450 1400
+Connection ~ 5900 1250
+Wire Wire Line
+	5900 1250 6250 1250
+Text Label 6450 1400 2    50   ~ 0
+VM_SENS+
+Wire Wire Line
+	5500 1400 4950 1400
+Text Label 4950 1400 0    50   ~ 0
+VM_SENS-
+Wire Wire Line
+	9000 4800 9550 4800
+Text Label 9550 4800 2    50   ~ 0
+VM_SENS+
+Wire Wire Line
+	9000 4900 9550 4900
+Text Label 9550 4900 2    50   ~ 0
+VM_SENS-
+Wire Wire Line
+	7250 4800 7850 4800
+Text Label 7250 4800 0    50   ~ 0
+CURR_SENS
+Wire Wire Line
+	4050 2900 4600 2900
+Text Label 4050 2900 0    50   ~ 0
+CURR_SENS
+Connection ~ 5500 1250
+Text Notes 5250 900  0    50   ~ 0
+Vmot current sensing\n\n10mV/A, 360mW dissipation
+$Comp
+L Device:R R?
+U 1 1 5EF3E1E4
+P 9700 5950
+F 0 "R?" H 9770 5996 50  0000 L CNN
+F 1 "10k" H 9770 5905 50  0000 L CNN
+F 2 "" V 9630 5950 50  0001 C CNN
+F 3 "~" H 9700 5950 50  0001 C CNN
+	1    9700 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 5800 9700 5700
+Wire Wire Line
+	9700 5700 9800 5700
+Wire Wire Line
+	9700 6100 9700 6150
+$Comp
+L power:GND #PWR?
+U 1 1 5EF459A3
+P 9700 6150
+F 0 "#PWR?" H 9700 5900 50  0001 C CNN
+F 1 "GND" H 9705 5977 50  0000 C CNN
+F 2 "" H 9700 6150 50  0001 C CNN
+F 3 "" H 9700 6150 50  0001 C CNN
+	1    9700 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5EF4CB38
+P 9700 5500
+F 0 "#PWR?" H 9700 5350 50  0001 C CNN
+F 1 "+5V" H 9715 5673 50  0000 C CNN
+F 2 "" H 9700 5500 50  0001 C CNN
+F 3 "" H 9700 5500 50  0001 C CNN
+	1    9700 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 5500 9700 5600
+Wire Wire Line
+	9700 5600 9800 5600
+Wire Wire Line
+	9700 5700 9300 5700
+Connection ~ 9700 5700
+Text Label 9300 5700 0    50   ~ 0
+FSR
+$EndSCHEMATC
